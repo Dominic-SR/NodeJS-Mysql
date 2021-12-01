@@ -1,0 +1,1341 @@
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:14:17.214Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:14:17.218Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:14:17.265Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:14:17.277Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:15:44.595Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:15:44.599Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:15:44.647Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:15:44.658Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:15:55.168Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:15:55.170Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:15:55.175Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:15:55.186Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:21:06.369Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:21:06.370Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:21:06.375Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:21:06.383Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:22:07.055Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:22:07.059Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:22:07.100Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:22:07.110Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:23:52.382Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:23:52.387Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:23:52.429Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:23:52.438Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:29:04.589Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:29:04.591Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:29:04.600Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:29:04.611Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:30:01.454Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:30:01.459Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:30:01.510Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:30:01.521Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:31:16.475Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:31:16.479Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:31:16.527Z'
+}
+{
+  message: "Access denied for user ''@'localhost' (using password: NO)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:31:16.538Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:36:27.081Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:36:27.086Z'
+}
+{
+  message: "Access denied for user 'root'@'localhost' (using password: YES)",
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:36:27.141Z'
+}
+{
+  message: "Access denied for user 'root'@'localhost' (using password: YES)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:36:27.152Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:38:07.885Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:38:07.889Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:38:07.945Z'
+}
+{
+  message: 'Data is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:38:07.952Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:42:02.133Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:42:02.138Z'
+}
+{
+  message: "Duplicate entry '987654321' for key 'contact_no'",
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  sqlState: '23000',
+  sqlMessage: "Duplicate entry '987654321' for key 'contact_no'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:42:02.205Z'
+}
+{
+  message: {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    fatal: undefined,
+    sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry '987654321' for key 'contact_no'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:42:02.215Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:43:25.546Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'length')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:43:25.553Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:43:47.364Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'length')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:43:47.370Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:44:13.761Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'length')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:44:13.767Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:44:51.291Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'length')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T11:44:51.298Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:22:56.447Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'length')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:22:56.452Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:23:06.595Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:23:06.597Z'
+}
+{
+  message: "Duplicate entry '987654321' for key 'contact_no'",
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+  sqlState: '23000',
+  sqlMessage: "Duplicate entry '987654321' for key 'contact_no'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:23:06.606Z'
+}
+{
+  message: {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    fatal: undefined,
+    sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','1234','image')",
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry '987654321' for key 'contact_no'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:23:06.609Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$hAU8uZeMRwo.17eSazHjseOUK6SRISlizGF9FO8hkHU5MefIJ.MWG','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:39:13.418Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$hAU8uZeMRwo.17eSazHjseOUK6SRISlizGF9FO8hkHU5MefIJ.MWG','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:39:13.422Z'
+}
+{
+  message: "Duplicate entry '987654321' for key 'contact_no'",
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$hAU8uZeMRwo.17eSazHjseOUK6SRISlizGF9FO8hkHU5MefIJ.MWG','image')",
+  sqlState: '23000',
+  sqlMessage: "Duplicate entry '987654321' for key 'contact_no'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:39:13.475Z'
+}
+{
+  message: {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    fatal: undefined,
+    sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$hAU8uZeMRwo.17eSazHjseOUK6SRISlizGF9FO8hkHU5MefIJ.MWG','image')",
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry '987654321' for key 'contact_no'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:39:13.478Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$RAR5lG4BJmG4nWhUOfnxK.3Z1VSB9/8mD/yjenOL.fPuFuFPgIELy','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:41:01.538Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$RAR5lG4BJmG4nWhUOfnxK.3Z1VSB9/8mD/yjenOL.fPuFuFPgIELy','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:41:01.544Z'
+}
+{
+  message: "Duplicate entry '987654321' for key 'contact_no'",
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$RAR5lG4BJmG4nWhUOfnxK.3Z1VSB9/8mD/yjenOL.fPuFuFPgIELy','image')",
+  sqlState: '23000',
+  sqlMessage: "Duplicate entry '987654321' for key 'contact_no'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:41:01.588Z'
+}
+{
+  message: {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    fatal: undefined,
+    sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$RAR5lG4BJmG4nWhUOfnxK.3Z1VSB9/8mD/yjenOL.fPuFuFPgIELy','image')",
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry '987654321' for key 'contact_no'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:41:01.591Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$N09YAzbHe23esHl6ryAC5.z/Wgls1j0P8DS0qsMWb1vY46dZWoXAe','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:41:45.741Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$N09YAzbHe23esHl6ryAC5.z/Wgls1j0P8DS0qsMWb1vY46dZWoXAe','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:41:45.744Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:41:45.751Z'
+}
+{
+  message: 'User is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:41:45.757Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$4kUoCpOToXyXn21SU389LOWTdBhzR6a8nMIwkCGwyZsHotNZ6aXXa','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:44:41.620Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$4kUoCpOToXyXn21SU389LOWTdBhzR6a8nMIwkCGwyZsHotNZ6aXXa','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:44:41.630Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:44:41.723Z'
+}
+{
+  message: 'User is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:44:41.729Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$T60qxGVxX4mfpF00EdDNYenFXRrGpHfrtDVCGW2AiJRJSZNNRbJc2','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:51:46.084Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$T60qxGVxX4mfpF00EdDNYenFXRrGpHfrtDVCGW2AiJRJSZNNRbJc2','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:51:46.089Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$ELNFc0Jr6G4u4sRHJ3KSNOmZ3p6K9qgOnibpooPVpPsa8IWQaC46K','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:51:54.561Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$ELNFc0Jr6G4u4sRHJ3KSNOmZ3p6K9qgOnibpooPVpPsa8IWQaC46K','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:51:54.563Z'
+}
+{
+  message: "Duplicate entry '987654321' for key 'contact_no'",
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$ELNFc0Jr6G4u4sRHJ3KSNOmZ3p6K9qgOnibpooPVpPsa8IWQaC46K','image')",
+  sqlState: '23000',
+  sqlMessage: "Duplicate entry '987654321' for key 'contact_no'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:51:54.574Z'
+}
+{
+  message: {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    fatal: undefined,
+    sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$ELNFc0Jr6G4u4sRHJ3KSNOmZ3p6K9qgOnibpooPVpPsa8IWQaC46K','image')",
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry '987654321' for key 'contact_no'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T12:51:54.577Z'
+}
+{
+  message: "Unknown column 'email' in 'field list'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: "select email from users where email = 'user@gmail.com'",
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'email' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:21:46.919Z'
+}
+{
+  message: "Unknown column 'email' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:21:46.933Z'
+}
+{
+  message: "Unknown column 'email' in 'field list'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: "select email from users where email = 'user@gmail.com'",
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'email' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:22:49.162Z'
+}
+{
+  message: "Unknown column 'email' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:22:49.173Z'
+}
+{
+  message: "Unknown column 'email' in 'field list'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: "select email from users where email_id = 'user@gmail.com'",
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'email' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:23:26.842Z'
+}
+{
+  message: "Unknown column 'email' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:23:26.855Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:23:58.111Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:23:58.118Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:26:21.227Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-11-30T13:26:21.234Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:01:26.399Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:01:26.406Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:04:13.296Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:04:13.302Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:05:04.086Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:05:04.094Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:06:22.717Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:06:22.724Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:20:17.433Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:20:17.436Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:20:54.170Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:20:54.173Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:22:34.628Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:22:34.636Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:25:24.201Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:25:24.204Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:27:11.655Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:27:11.659Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  code: 'ECONNREFUSED',
+  errno: -4078,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined,
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:28:23.200Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: -4078,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:28:23.207Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:37:35.103Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:37:35.114Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:48:02.233Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:48:02.243Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:49:01.565Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:49:01.568Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:50:28.267Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:50:28.274Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:51:01.282Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:51:01.290Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:51:47.427Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:51:47.436Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:52:19.031Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:52:19.041Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:52:57.012Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:52:57.020Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:53:33.203Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:53:33.213Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:55:27.273Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:55:27.296Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:55:59.974Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:55:59.987Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:56:50.362Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:56:50.374Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:58:10.944Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:58:10.953Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:58:58.865Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T04:58:58.874Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:00:01.880Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:00:01.892Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:01:39.465Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:01:39.477Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:04:02.400Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:04:02.409Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:05:17.416Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:05:17.427Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:06:46.380Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:06:46.389Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:15:16.621Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:15:16.631Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:17:59.332Z'
+}
+{
+  message: 'QueryGenerator is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:17:59.337Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:18:40.339Z'
+}
+{
+  message: 'QueryGenerator is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:18:40.350Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:20:12.128Z'
+}
+{
+  message: 'QueryGenerator is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:20:12.137Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$i7ZpmIEc9nns4IPo37cDlOCDB3Dhs5eu4.CQNDho/znUamajBbPxe','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:21:11.261Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('2','user','User@gmail.com','987654321','$2a$10$i7ZpmIEc9nns4IPo37cDlOCDB3Dhs5eu4.CQNDho/znUamajBbPxe','image')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:21:11.268Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:21:35.722Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:21:35.729Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:30:05.899Z'
+}
+{
+  message: 'Illegal arguments: string, undefined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:30:05.909Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:30:53.912Z'
+}
+{
+  message: 'Illegal arguments: string, undefined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:30:53.923Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:31:44.321Z'
+}
+{
+  message: 'Illegal arguments: string, undefined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:31:44.330Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:33:08.873Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:33:08.880Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:33:38.137Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:33:38.145Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:35:40.032Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T05:35:40.042Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:03:11.875Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:03:11.884Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:29:22.240Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:29:22.245Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:30:06.033Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:30:06.040Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:31:05.669Z'
+}
+{
+  message: 'userData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:31:05.678Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:31:24.628Z'
+}
+{
+  message: 'Cannot set headers after they are sent to the client',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:31:24.648Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:39:54.103Z'
+}
+{
+  message: 'Cannot set headers after they are sent to the client',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T06:39:54.122Z'
+}
+{
+  code: 'ERR_HTTP_HEADERS_SENT',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T07:12:32.256Z'
+}
+{
+  message: 'Cannot set headers after they are sent to the client',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-01T07:12:32.272Z'
+}
