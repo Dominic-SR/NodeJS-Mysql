@@ -12,24 +12,22 @@ const userController={
     async CreateUser(req,res){
         try{
             let{
-                role_id,
                 user_name,
-                email_id,
-                contact_no,
-                password,
-                picture
+                user_email,
+                user_password,
+                user_about
             }=req.body;
-            password = await bcrypt.hash(req.body.password,10);
-            //console.log(req.body)
-            if(email_id.length){
-                let[User]=await UserModal.CreateUser({
-                role_id,
+            user_password = await bcrypt.hash(req.body.user_password,10);
+            
+            var UserData= {
                 user_name,
-                email_id,
-                contact_no,
-                password,
-                picture
-                })
+                user_email,
+                user_password,
+                user_about
+            };
+
+            if(user_email.length){
+                let[User]=await UserModal.CreateUser(UserData)
             if(User){
                 new Response(
                     res,
@@ -60,12 +58,12 @@ const userController={
     async LoginUser(req,res){
     try{
         let{
-            email_id,
-            password
+            user_email,
+            user_password
         }=req.body;
-        console.log(req.body)
-        if(email_id.length){
-        var UserData = await UserModal.LoginUser({email_id})
+
+        if(user_email.length){
+        var UserData = await UserModal.LoginUser({user_email})
         if(UserData == undefined){
             new Response(
                 res,
@@ -73,15 +71,17 @@ const userController={
             )._ErrorMessage(
                 Message.UserLogin.FailureMessage.Create
                 )
-            }
-        
-        var ValidPsw = await bcrypt.compare(req.body.password,UserData[0][0].password);
+        }
+
+        var ValidPsw = await bcrypt.compare(req.body.user_password,UserData[0][0].user_password);
+        console.log(ValidPsw);
+
         if(ValidPsw == true){
-            var userToken = jwt.sign({email_id:UserData[0][0].email_id},'secretkey');
+            var userToken = jwt.sign({user_email:UserData[0][0].user_email},'secretkey');
             res.header('auth',userToken).json(userToken);
             
-        }
-    else{
+            }
+        else{
                 new Response(
                     res,
                     StatusCodes.BAD_REQUEST

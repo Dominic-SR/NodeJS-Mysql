@@ -1339,3 +1339,594 @@
   label: undefined,
   timestamp: '2021-12-01T07:12:32.272Z'
 }
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('abc','user@gmail.com','123','12345','$2a$10$nkaAOEh5Gpsep1HN/.DgOuyXYZLXu2T367UYBFxe677cCScmFY6.C','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:40:17.093Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('abc','user@gmail.com','123','12345','$2a$10$nkaAOEh5Gpsep1HN/.DgOuyXYZLXu2T367UYBFxe677cCScmFY6.C','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:40:17.099Z'
+}
+{
+  message: "Incorrect integer value: 'abc' for column `instant_water`.`users`.`role_id` at row 1",
+  code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD',
+  errno: 1366,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('abc','user@gmail.com','123','12345','$2a$10$nkaAOEh5Gpsep1HN/.DgOuyXYZLXu2T367UYBFxe677cCScmFY6.C','logo.png')",
+  sqlState: '22007',
+  sqlMessage: "Incorrect integer value: 'abc' for column `instant_water`.`users`.`role_id` at row 1",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:40:17.152Z'
+}
+{
+  message: "Incorrect integer value: 'abc' for column `instant_water`.`users`.`role_id` at row 1",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:40:17.155Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('abc','user@gmail.com','123','12345','$2a$10$Yixhw3MTZUvJqsYn1yF8mOnJqwOKl..ZhO1yE3lZoLM8jKfvXavEO','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:42:32.591Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('abc','user@gmail.com','123','12345','$2a$10$Yixhw3MTZUvJqsYn1yF8mOnJqwOKl..ZhO1yE3lZoLM8jKfvXavEO','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:42:32.595Z'
+}
+{
+  message: "Incorrect integer value: 'abc' for column `instant_water`.`users`.`role_id` at row 1",
+  code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD',
+  errno: 1366,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('abc','user@gmail.com','123','12345','$2a$10$Yixhw3MTZUvJqsYn1yF8mOnJqwOKl..ZhO1yE3lZoLM8jKfvXavEO','logo.png')",
+  sqlState: '22007',
+  sqlMessage: "Incorrect integer value: 'abc' for column `instant_water`.`users`.`role_id` at row 1",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:42:32.628Z'
+}
+{
+  message: "Incorrect integer value: 'abc' for column `instant_water`.`users`.`role_id` at row 1",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:42:32.631Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('abc','user@gmail.com','123','12345','$2a$10$6KCxBhoS1d0v01qwd7WTu.i9XPBgBwiyPlYkCju/.JHGJpkr2BEMW','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:43:27.393Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('abc','user@gmail.com','123','12345','$2a$10$6KCxBhoS1d0v01qwd7WTu.i9XPBgBwiyPlYkCju/.JHGJpkr2BEMW','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:43:27.396Z'
+}
+{
+  message: "Incorrect integer value: 'abc' for column `instant_water`.`users`.`role_id` at row 1",
+  code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD',
+  errno: 1366,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('abc','user@gmail.com','123','12345','$2a$10$6KCxBhoS1d0v01qwd7WTu.i9XPBgBwiyPlYkCju/.JHGJpkr2BEMW','logo.png')",
+  sqlState: '22007',
+  sqlMessage: "Incorrect integer value: 'abc' for column `instant_water`.`users`.`role_id` at row 1",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:43:27.439Z'
+}
+{
+  message: "Incorrect integer value: 'abc' for column `instant_water`.`users`.`role_id` at row 1",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:43:27.442Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user@gmail.com','123','12345','$2a$10$kHlUh8UbjUF925fv1FHrt.CJi4CluZ0gblZ.gp0DrJWoSpO91don2','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:45:33.452Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user@gmail.com','123','12345','$2a$10$kHlUh8UbjUF925fv1FHrt.CJi4CluZ0gblZ.gp0DrJWoSpO91don2','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:45:33.453Z'
+}
+{
+  message: 'Cannot add or update a child row: a foreign key constraint fails (`instant_water`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `roles` (`roles_id`) ON DELETE CASCADE)',
+  code: 'ER_NO_REFERENCED_ROW_2',
+  errno: 1452,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user@gmail.com','123','12345','$2a$10$kHlUh8UbjUF925fv1FHrt.CJi4CluZ0gblZ.gp0DrJWoSpO91don2','logo.png')",
+  sqlState: '23000',
+  sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`instant_water`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `roles` (`roles_id`) ON DELETE CASCADE)',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:45:33.475Z'
+}
+{
+  message: {
+    code: 'ER_NO_REFERENCED_ROW_2',
+    errno: 1452,
+    fatal: undefined,
+    sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user@gmail.com','123','12345','$2a$10$kHlUh8UbjUF925fv1FHrt.CJi4CluZ0gblZ.gp0DrJWoSpO91don2','logo.png')",
+    sqlState: '23000',
+    sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`instant_water`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `roles` (`roles_id`) ON DELETE CASCADE)'
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:45:33.477Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user@gmail.com','123','12345','$2a$10$zI6wBIYhO9n1x1zh7L.jCuyCkUpp5NZeI5cn6w8gqA60GZ7OTtJoK','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:48:46.750Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user@gmail.com','123','12345','$2a$10$zI6wBIYhO9n1x1zh7L.jCuyCkUpp5NZeI5cn6w8gqA60GZ7OTtJoK','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:48:46.754Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user','user@gmail.com','12345','$2a$10$IKIlOF7s3tYSIGTLac4Pg.ZjDAnjReYElwesLTZEMdAr2Ze4H.ZcG','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:26.866Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user','user@gmail.com','12345','$2a$10$IKIlOF7s3tYSIGTLac4Pg.ZjDAnjReYElwesLTZEMdAr2Ze4H.ZcG','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:26.866Z'
+}
+{
+  message: "Duplicate entry '12345' for key 'contact_no'",
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user','user@gmail.com','12345','$2a$10$IKIlOF7s3tYSIGTLac4Pg.ZjDAnjReYElwesLTZEMdAr2Ze4H.ZcG','logo.png')",
+  sqlState: '23000',
+  sqlMessage: "Duplicate entry '12345' for key 'contact_no'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:26.887Z'
+}
+{
+  message: {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    fatal: undefined,
+    sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('3','user','user@gmail.com','12345','$2a$10$IKIlOF7s3tYSIGTLac4Pg.ZjDAnjReYElwesLTZEMdAr2Ze4H.ZcG','logo.png')",
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry '12345' for key 'contact_no'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:26.888Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','12345','$2a$10$m5cbdj.ZYoOckdghP6p0sO7CooaIpifkhPa1MKyr3j0KGrhlTA3Q6','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:35.751Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','12345','$2a$10$m5cbdj.ZYoOckdghP6p0sO7CooaIpifkhPa1MKyr3j0KGrhlTA3Q6','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:35.752Z'
+}
+{
+  message: "Duplicate entry '12345' for key 'contact_no'",
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','12345','$2a$10$m5cbdj.ZYoOckdghP6p0sO7CooaIpifkhPa1MKyr3j0KGrhlTA3Q6','logo.png')",
+  sqlState: '23000',
+  sqlMessage: "Duplicate entry '12345' for key 'contact_no'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:35.769Z'
+}
+{
+  message: {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    fatal: undefined,
+    sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','12345','$2a$10$m5cbdj.ZYoOckdghP6p0sO7CooaIpifkhPa1MKyr3j0KGrhlTA3Q6','logo.png')",
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry '12345' for key 'contact_no'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:35.770Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','123456','$2a$10$bmKJGH.RGKRe5JYnkspIT.l0r2wh1WDFOEqhTTwuVGfzg/otU5wcS','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:43.002Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','123456','$2a$10$bmKJGH.RGKRe5JYnkspIT.l0r2wh1WDFOEqhTTwuVGfzg/otU5wcS','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:51:43.002Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES (NULL,NULL,'user@gmail.com',NULL,'$2a$10$cW0oaBcCSdP6M9cKM82/9OhTkn0yk8cGT7v0y.Ebli78sm40ibh9C',NULL)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:17.274Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES (NULL,NULL,'user@gmail.com',NULL,'$2a$10$cW0oaBcCSdP6M9cKM82/9OhTkn0yk8cGT7v0y.Ebli78sm40ibh9C',NULL)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:17.275Z'
+}
+{
+  message: "Column 'role_id' cannot be null",
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES (NULL,NULL,'user@gmail.com',NULL,'$2a$10$cW0oaBcCSdP6M9cKM82/9OhTkn0yk8cGT7v0y.Ebli78sm40ibh9C',NULL)",
+  sqlState: '23000',
+  sqlMessage: "Column 'role_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:17.276Z'
+}
+{
+  message: "Column 'role_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:17.280Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','123456','$2a$10$FmEWbqWCMR3PbOekp71EOuZPzThUtHpyLK5PDdBp4AVQp3lohNgvS','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:35.766Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','123456','$2a$10$FmEWbqWCMR3PbOekp71EOuZPzThUtHpyLK5PDdBp4AVQp3lohNgvS','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:35.767Z'
+}
+{
+  message: "Duplicate entry '123456' for key 'contact_no'",
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','123456','$2a$10$FmEWbqWCMR3PbOekp71EOuZPzThUtHpyLK5PDdBp4AVQp3lohNgvS','logo.png')",
+  sqlState: '23000',
+  sqlMessage: "Duplicate entry '123456' for key 'contact_no'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:35.787Z'
+}
+{
+  message: {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    fatal: undefined,
+    sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','123456','$2a$10$FmEWbqWCMR3PbOekp71EOuZPzThUtHpyLK5PDdBp4AVQp3lohNgvS','logo.png')",
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry '123456' for key 'contact_no'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:35.788Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','1234567','$2a$10$t1Kf3uhjw.qRr33ssUccbuv1Bkg/TD.583B7otyD3pu9wDqwtoO56','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:44.142Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES ('4','user','user@gmail.com','1234567','$2a$10$t1Kf3uhjw.qRr33ssUccbuv1Bkg/TD.583B7otyD3pu9wDqwtoO56','logo.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:44.142Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES (NULL,NULL,'user@gmail.com',NULL,'$2a$10$WyhbuChHzDtJSEobuh3Q7Ovg/IS2c26rwv.NA5J2u7gMLO//bOiC6',NULL)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:51.918Z'
+}
+{
+  message: "PREPARING INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES (NULL,NULL,'user@gmail.com',NULL,'$2a$10$WyhbuChHzDtJSEobuh3Q7Ovg/IS2c26rwv.NA5J2u7gMLO//bOiC6',NULL)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:51.918Z'
+}
+{
+  message: "Column 'role_id' cannot be null",
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sql: "INSERT INTO users (role_id,user_name,email_id,contact_no,password,picture) VALUES (NULL,NULL,'user@gmail.com',NULL,'$2a$10$WyhbuChHzDtJSEobuh3Q7Ovg/IS2c26rwv.NA5J2u7gMLO//bOiC6',NULL)",
+  sqlState: '23000',
+  sqlMessage: "Column 'role_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:51.920Z'
+}
+{
+  message: "Column 'role_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T09:52:51.921Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:00:11.410Z'
+}
+{
+  message: 'Illegal arguments: undefined, number',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:00:11.414Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:02:00.936Z'
+}
+{
+  message: 'Illegal arguments: undefined, number',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:02:00.951Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:02:52.167Z'
+}
+{
+  message: 'password is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:02:52.174Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:04:04.181Z'
+}
+{
+  message: 'password is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:04:04.182Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:04:34.989Z'
+}
+{
+  message: 'email_id is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:04:34.994Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:07:28.286Z'
+}
+{
+  message: 'email_id is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:07:28.293Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','1234','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:08:23.246Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','1234','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:08:23.254Z'
+}
+{
+  message: "Unknown database 'instant_water'",
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sql: undefined,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'instant_water'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:08:23.310Z'
+}
+{
+  message: {
+    code: 'ER_BAD_DB_ERROR',
+    errno: 1049,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: '42000',
+    sqlMessage: "Unknown database 'instant_water'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:08:23.311Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','1234','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:01.415Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','1234','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:01.416Z'
+}
+{
+  message: "Unknown database 'instant_water'",
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sql: undefined,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'instant_water'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:01.419Z'
+}
+{
+  message: {
+    code: 'ER_BAD_DB_ERROR',
+    errno: 1049,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: '42000',
+    sqlMessage: "Unknown database 'instant_water'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:01.420Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','1234','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:18.704Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','1234','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:18.709Z'
+}
+{
+  message: "Unknown database 'Project_Test'",
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sql: undefined,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'Project_Test'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:18.739Z'
+}
+{
+  message: {
+    code: 'ER_BAD_DB_ERROR',
+    errno: 1049,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: '42000',
+    sqlMessage: "Unknown database 'Project_Test'"
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:18.740Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','1234','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:55.133Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','1234','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:09:55.138Z'
+}
+{
+  message: "Unknown column 'email_id' in 'field list'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: "select email_id,password from users where email_id = 'undefined'",
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'email_id' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:13:50.220Z'
+}
+{
+  message: "Unknown column 'email_id' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:13:50.226Z'
+}
+{
+  message: "Unknown column 'email_id' in 'field list'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: "select email_id,password from users where email_id = 'user@gmail.com'",
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'email_id' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:14:45.240Z'
+}
+{
+  message: "Unknown column 'email_id' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:14:45.254Z'
+}
+{
+  message: "Unknown column 'email_id' in 'field list'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: "select email_id,password from users where email_id = 'user@gmail.com'",
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'email_id' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:14:56.640Z'
+}
+{
+  message: "Unknown column 'email_id' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:14:56.649Z'
+}
+{
+  message: "Unknown column 'email_id' in 'where clause'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: "select user_email,user_password from users where email_id = 'user@gmail.com'",
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'email_id' in 'where clause'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:15:52.455Z'
+}
+{
+  message: "Unknown column 'email_id' in 'where clause'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:15:52.462Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','$2a$10$ssxR.b2pUXtHdgl0F11Ie.Yu2YKCJwo7zfqTRF2ZvOxxT4rHc2wH.','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:28:47.875Z'
+}
+{
+  message: "PREPARING INSERT INTO users (user_name,user_email,user_password,user_about) VALUES ('user','user@gmail.com','$2a$10$ssxR.b2pUXtHdgl0F11Ie.Yu2YKCJwo7zfqTRF2ZvOxxT4rHc2wH.','Test')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-01T16:28:47.879Z'
+}

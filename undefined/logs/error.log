@@ -1268,3 +1268,3728 @@
   label: undefined,
   timestamp: '2021-12-01T07:12:32.323Z'
 }
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 15:55:04 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 32732,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 57491456,
+      heapTotal: 18272256,
+      heapUsed: 13293392,
+      external: 1905573,
+      arrayBuffers: 479047
+    }
+  },
+  os: { loadavg: [ 0.94, 0.51, 0.39 ], uptime: 24491 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T15:55:04.844Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 15:55:15 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 32823,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 60112896,
+      heapTotal: 18272256,
+      heapUsed: 13128880,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.95, 0.53, 0.39 ], uptime: 24501 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T15:55:15.052Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 15:55:19 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 32912,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59715584,
+      heapTotal: 18272256,
+      heapUsed: 13284376,
+      external: 1897381,
+      arrayBuffers: 470855
+    }
+  },
+  os: { loadavg: [ 0.95, 0.54, 0.4 ], uptime: 24506 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T15:55:19.866Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:00:47 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 33655,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59109376,
+      heapTotal: 18272256,
+      heapUsed: 13116208,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.33, 0.39, 0.36 ], uptime: 24834 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:00:47.573Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:00:50 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 33715,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 58855424,
+      heapTotal: 18272256,
+      heapUsed: 13107928,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.33, 0.39, 0.36 ], uptime: 24837 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:00:50.869Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:00:50 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 33714,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59449344,
+      heapTotal: 18272256,
+      heapUsed: 13146576,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.33, 0.39, 0.36 ], uptime: 24837 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:00:50.934Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:01:41 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 33938,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 60182528,
+      heapTotal: 18272256,
+      heapUsed: 13183160,
+      external: 1890491,
+      arrayBuffers: 463965
+    }
+  },
+  os: { loadavg: [ 0.18, 0.34, 0.35 ], uptime: 24887 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:01:41.247Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:01:41 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 33954,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59351040,
+      heapTotal: 18534400,
+      heapUsed: 13274120,
+      external: 1897381,
+      arrayBuffers: 470855
+    }
+  },
+  os: { loadavg: [ 0.18, 0.34, 0.35 ], uptime: 24887 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:01:41.306Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:02:40 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 34192,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 58970112,
+      heapTotal: 18272256,
+      heapUsed: 13154528,
+      external: 1890491,
+      arrayBuffers: 463965
+    }
+  },
+  os: { loadavg: [ 0.83, 0.48, 0.39 ], uptime: 24947 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:02:40.762Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:04:19 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 34474,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59588608,
+      heapTotal: 18272256,
+      heapUsed: 13153544,
+      external: 1890491,
+      arrayBuffers: 463965
+    }
+  },
+  os: { loadavg: [ 0.6, 0.57, 0.44 ], uptime: 25045 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:04:19.272Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:06:33 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 34822,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59092992,
+      heapTotal: 19845120,
+      heapUsed: 11161800,
+      external: 1468684,
+      arrayBuffers: 42158
+    }
+  },
+  os: { loadavg: [ 0.49, 0.58, 0.46 ], uptime: 25179 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:06:33.361Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:06:36 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 34882,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59523072,
+      heapTotal: 18272256,
+      heapUsed: 13290880,
+      external: 1897381,
+      arrayBuffers: 470855
+    }
+  },
+  os: { loadavg: [ 0.49, 0.58, 0.46 ], uptime: 25183 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:06:36.638Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:07:53 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 35304,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 58802176,
+      heapTotal: 18272256,
+      heapUsed: 13126768,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.82, 0.68, 0.51 ], uptime: 25259 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:07:53.367Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:08:03 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 35390,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59428864,
+      heapTotal: 18534400,
+      heapUsed: 13284424,
+      external: 1890491,
+      arrayBuffers: 463965
+    }
+  },
+  os: { loadavg: [ 0.69, 0.66, 0.5 ], uptime: 25269 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:08:03.244Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:08:10 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 35463,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59760640,
+      heapTotal: 18272256,
+      heapUsed: 13287848,
+      external: 1897381,
+      arrayBuffers: 470855
+    }
+  },
+  os: { loadavg: [ 0.64, 0.65, 0.5 ], uptime: 25277 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:08:10.915Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:13:20 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 36211,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 58736640,
+      heapTotal: 18534400,
+      heapUsed: 13286352,
+      external: 1890491,
+      arrayBuffers: 463965
+    }
+  },
+  os: { loadavg: [ 0.69, 0.67, 0.55 ], uptime: 25587 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:13:20.819Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:14:41 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 36493,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59396096,
+      heapTotal: 18534400,
+      heapUsed: 13181120,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 1.13, 0.76, 0.59 ], uptime: 25668 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:14:41.699Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:15:33 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 36731,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59179008,
+      heapTotal: 18534400,
+      heapUsed: 13105616,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.76, 0.71, 0.58 ], uptime: 25720 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:15:33.668Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:16:19 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 36958,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 61059072,
+      heapTotal: 18272256,
+      heapUsed: 13150816,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.97, 0.77, 0.6 ], uptime: 25765 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:16:19.208Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:17:15 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 37222,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59052032,
+      heapTotal: 18272256,
+      heapUsed: 13154144,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.55, 0.69, 0.59 ], uptime: 25822 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:17:15.981Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:17:46 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 37386,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 61726720,
+      heapTotal: 18272256,
+      heapUsed: 13077784,
+      external: 1874854,
+      arrayBuffers: 448328
+    }
+  },
+  os: { loadavg: [ 0.52, 0.68, 0.59 ], uptime: 25852 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:17:46.060Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:20:33 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 37615,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59289600,
+      heapTotal: 18272256,
+      heapUsed: 13124744,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.87, 0.75, 0.63 ], uptime: 26019 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:20:33.104Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:28:30 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 38015,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59244544,
+      heapTotal: 18534400,
+      heapUsed: 13158816,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.07, 0.27, 0.45 ], uptime: 26497 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:28:30.994Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:38:57 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 38619,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59363328,
+      heapTotal: 18272256,
+      heapUsed: 13144488,
+      external: 1885973,
+      arrayBuffers: 459447
+    }
+  },
+  os: { loadavg: [ 0.4, 0.24, 0.34 ], uptime: 27123 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:38:57.235Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+      at listenInCluster (net.js:1358:12)
+      at Server.listen (net.js:1444:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)
+      at Module._compile (internal/modules/cjs/loader.js:999:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+      at Module.load (internal/modules/cjs/loader.js:863:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1310:16)\n' +
+    '    at listenInCluster (net.js:1358:12)\n' +
+    '    at Server.listen (net.js:1444:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:25:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)',
+  exception: true,
+  date: 'Sat Jan 01 2022 16:46:51 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 39118,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v12.22.7',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59240448,
+      heapTotal: 18272256,
+      heapUsed: 13276888,
+      external: 1905573,
+      arrayBuffers: 479047
+    }
+  },
+  os: { loadavg: [ 0.46, 0.25, 0.29 ], uptime: 27597 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1310,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1358,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1444,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 999,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1027,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 863,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 708,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 60,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-01-01T16:46:51.420Z'
+}

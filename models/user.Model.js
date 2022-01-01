@@ -3,26 +3,12 @@ const QueryGenerator = require("../generators/query.generator")
 const database = require("../utils/database")
 
 const UserModal = {
-    async CreateUser({
-            role_id,
-            user_name,
-            email_id,
-            contact_no,
-            password,
-            picture
-    }){
-        let query=QueryGenerator.insert('users',{
-            role_id,
-            user_name,
-            email_id,
-            contact_no,
-            password,
-            picture
-        })
+    async CreateUser(userData){
+        let query=QueryGenerator.insert('users',userData)
         return database.promise().query(query)
     },
-    async LoginUser({email_id}){
-        return database.promise().query(`select email_id,password from users where email_id = '${email_id}'`)
+    async LoginUser({user_email}){
+        return database.promise().query(`select user_email,user_password from users where user_email = '${user_email}'`)
     }
 }
 module.exports=UserModal;
