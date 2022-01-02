@@ -1,4 +1,3 @@
-// const { CreateUser } = require("../controller/user.controller")
 const QueryGenerator = require("../generators/query.generator")
 const database = require("../utils/database")
 

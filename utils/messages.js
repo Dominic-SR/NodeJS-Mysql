@@ -31,6 +31,16 @@ module.exports.Message = {
             Create:"Login Failed Please Try Again!",
         }
     },
+    ProjectRegister:{
+        SuccessMessage:{
+            Create:"Project Created successfully !"
+
+        },
+        FailureMessage:{
+            Create:"Project Details is not submitted !",
+            Id:"this User Id is already exists !"
+        }
+    },
     HouseholdManagement:{
         SuccessMessage:{
             Create:"Household Details is submitted successfully !"
@@ -167,7 +177,7 @@ module.exports.Message = {
             Send(data = 'Data') { return `${data} sent successfully !` },
 
             Updation(data = 'Data') { return `${data} updated successfully !` },
-            Deletion(data = 'Data') { return `${data} updated successfully !` },
+            Deletion(data = 'Data') { return `${data} Deleted successfully !` },
         },
         FailureMessage: {
             Fetch(data = 'Data') { return `${data} fetch failed, kindly retry !! ` },

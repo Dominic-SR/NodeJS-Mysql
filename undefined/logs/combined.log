@@ -1930,3 +1930,145 @@
   label: undefined,
   timestamp: '2022-01-01T16:28:47.879Z'
 }
+{
+  message: 'Invalid base64 string',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:24:22.583Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:42:00.662Z'
+}
+{
+  message: 'projectModal.addProject is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:42:00.671Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:42:39.106Z'
+}
+{
+  message: 'projectModal.addProject is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:42:39.112Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:43:50.779Z'
+}
+{
+  message: 'projectModal.addProject is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:43:50.785Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:51:54.407Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:51:54.412Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:51:54.449Z'
+}
+{
+  message: 'projetc is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:51:54.451Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:52:54.270Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T16:52:54.276Z'
+}
+{
+  message: "Unknown column 'project_id' in 'order clause'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: 'select * from projects order by project_id',
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'project_id' in 'order clause'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T17:16:05.699Z'
+}
+{
+  message: "Unknown column 'project_id' in 'order clause'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T17:16:05.706Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T17:16:53.980Z'
+}
+{
+  message: "Cannot read property 'Create' of undefined",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T17:16:53.986Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T18:06:17.324Z'
+}
+{
+  message: 'projects_id is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T18:06:17.331Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T18:54:30.445Z'
+}
+{
+  message: 'projectsData is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T18:54:30.462Z'
+}
+{
+  message: "PREPARING UPDATE projects SET project_name = 'project2',project_description = 'desc',project_image = 'image.png' WHERE projects_id = '2' ",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T18:55:29.296Z'
+}
+{
+  message: "PREPARING UPDATE projects SET project_name = 'project2',project_description = 'desc2',project_image = 'image.png' WHERE projects_id = '2' ",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T18:55:43.701Z'
+}
+{
+  message: "PREPARING UPDATE projects SET project_name = 'project2',project_description = 'desc2',project_image = 'image2.png' WHERE projects_id = '2' ",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-02T18:55:47.507Z'
+}
