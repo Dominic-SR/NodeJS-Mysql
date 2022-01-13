@@ -1,11 +1,12 @@
 const express = require("express");
 const morgan = require('morgan');
 var indexRouter = require('./routes/index.routes');
+const cors = require('cors');
 
 const app = express();
 app.use(morgan('dev'));
 app.use(express.json());
-
+app.use(cors());
 app.use('/api', indexRouter);
 
 // app.use(function (req, res, next) {
