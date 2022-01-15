@@ -6,7 +6,7 @@ var router = express.Router();
 
 //use base64 = FileUpload.base64ToImage("project_image","project_image"),
 
-router.post('/', ProjectController.addProject)
+router.post('/', FileUpload.base64ToImage("project_image","project_image"), ProjectController.addProject)
 router.get('/', ProjectController.getProject)
 router.get('/:projects_id', ProjectController.getByProjectId)
 router.put('/:projects_id', ProjectController.updateProject)

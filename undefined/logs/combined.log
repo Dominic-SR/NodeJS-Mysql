@@ -2072,3 +2072,24 @@
   label: undefined,
   timestamp: '2022-01-02T18:55:47.507Z'
 }
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image/1642210567224_project_image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-15T01:36:07.229Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image/1642210567224_project_image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-15T01:36:07.243Z'
+}
+{
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'mkdir',
+  path: 'undefinedpublic/uploads/image',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-15T01:36:07.262Z'
+}

@@ -1,0 +1,42 @@
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image/1642210154900_project_image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-15T01:29:14.902Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image/1642210154900_project_image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-15T01:29:14.918Z'
+}
+{
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'mkdir',
+  path: '~/Project/nodejs/NodeJS-Mysql/public/uploads/image',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-15T01:29:14.937Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image/1642210344834_project_image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-15T01:32:24.834Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image/1642210344834_project_image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-15T01:32:24.835Z'
+}
+{
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'mkdir',
+  path: '~/Project/nodejs/NodeJS-Mysql/public/uploads/image',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-15T01:32:24.839Z'
+}
