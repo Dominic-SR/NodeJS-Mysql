@@ -18,7 +18,6 @@ var storage = multer.diskStorage({
 
         var file_type = `${file.mimetype.split('/')[0]}`
         var destination = `${process.env.APP_BASE_PATH}/public/uploads/${file_type}`;
-
         var stat = null;
         try {
             stat = fs.statSync(destination);

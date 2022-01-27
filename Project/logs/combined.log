@@ -1,0 +1,46 @@
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-26T16:44:19.716Z'
+}
+{
+  message: 'fs is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-26T16:44:19.722Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-27T23:22:12.553Z'
+}
+{
+  message: 'fs is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-27T23:22:12.556Z'
+}
+{
+  code: 'ERR_INVALID_ARG_TYPE',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-27T23:43:58.521Z'
+}
+{
+  message: 'The "id" argument must be of type string. Received an instance of Object',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-27T23:43:58.529Z'
+}
+{
+  code: 'ERR_INVALID_ARG_TYPE',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-27T23:44:39.181Z'
+}
+{
+  message: 'The "id" argument must be of type string. Received an instance of Object',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-01-27T23:44:39.188Z'
+}

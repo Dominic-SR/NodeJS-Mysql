@@ -1,3 +1,4 @@
+const { fstat } = require("fs-extra");
 const { StatusCodes } = require("http-status-codes")
 const { message } = require("statuses");
 const ProjectModal = require("../models/project.model");
@@ -6,7 +7,8 @@ const projectModal = require("../models/project.model")
 const SpErrorHandler = require("../utils/error-handler")
 const { Message } = require("../utils/messages");
 const Response = require("../utils/response");
-
+const fs = require('fs');
+const mime = require('mime');
 
 const userController={
     async addProject(req,res){
@@ -16,10 +18,28 @@ const userController={
                 project_description,
                 project_image
             }=req.body;
+
+            var matches = req.body.project_image.match(/^data:([A-Za-z-+/]+);base64,(.+)$/),
+            response = {};
+
+            if (matches.length !== 3) {
+                return new Error('Invalid input string');
+                }
+            
+                response.type = matches[1];
+                response.data = new Buffer(matches[2], 'base64');
+                let decodedImg = response;
+                let imageBuffer = decodedImg.data;
+                let type = decodedImg.type;
+                let extension = mime.extension(type);
+                let fileName = "image." + extension;
+                
+                fs.writeFileSync("./public/uploads/image/" + fileName, imageBuffer, 'utf8');       
+
             var projectData ={
                 project_name,
                 project_description,
-                project_image
+                fileName
             };
             if(projectData){
                 let[project]=await projectModal.addProject(projectData);
