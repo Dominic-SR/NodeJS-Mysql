@@ -32,14 +32,15 @@ const userController={
                 let imageBuffer = decodedImg.data;
                 let type = decodedImg.type;
                 let extension = mime.extension(type);
-                let fileName = "image." + extension;
+                let imageName = new Date().getTime().toString();
+                project_image = imageName+ "." + extension;
                 
-                fs.writeFileSync("./public/uploads/image/" + fileName, imageBuffer, 'utf8');       
+                fs.writeFileSync("./public/uploads/image/" + project_image, imageBuffer, 'utf8');       
 
             var projectData ={
                 project_name,
                 project_description,
-                fileName
+                project_image
             };
             if(projectData){
                 let[project]=await projectModal.addProject(projectData);

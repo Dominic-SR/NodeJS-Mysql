@@ -44,3 +44,91 @@
   label: undefined,
   timestamp: '2022-01-27T23:44:39.188Z'
 }
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,fileName) VALUES ('project1','desc','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:12:17.492Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,fileName) VALUES ('project1','desc','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:12:17.496Z'
+}
+{
+  message: "Unknown column 'fileName' in 'field list'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: "INSERT INTO projects (project_name,project_description,fileName) VALUES ('project1','desc','image.png')",
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'fileName' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:12:17.527Z'
+}
+{
+  message: "Unknown column 'fileName' in 'field list'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:12:17.530Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:21:47.523Z'
+}
+{
+  message: 'fileName is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:21:47.529Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:22:27.843Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('project1','desc','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:22:27.847Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('d','a','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:23:15.698Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('d','a','image.png')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-01T23:23:15.699Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('ironman','maevel','1643842122789jpeg')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-02T22:48:42.792Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('ironman','maevel','1643842122789jpeg')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-02T22:48:42.797Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('spidy','mc','1643842184677.jpeg')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-02T22:49:44.681Z'
+}
+{
+  message: "PREPARING INSERT INTO projects (project_name,project_description,project_image) VALUES ('spidy','mc','1643842184677.jpeg')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2022-02-02T22:49:44.691Z'
+}

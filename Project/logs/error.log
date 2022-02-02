@@ -1792,3 +1792,1070 @@
   label: undefined,
   timestamp: '2022-01-27T23:52:18.987Z'
 }
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+      at listenInCluster (node:net:1382:12)
+      at Server.listen (node:net:1469:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:27:5)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+    code: 'EADDRINUSE',
+    errno: -98,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n' +
+    '    at listenInCluster (node:net:1382:12)\n' +
+    '    at Server.listen (node:net:1469:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:27:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n' +
+    '    at listenInCluster (node:net:1382:12)\n' +
+    '    at Server.listen (node:net:1469:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:27:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  exception: true,
+  date: 'Tue Feb 01 2022 23:12:11 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 10549,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.2',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59985920,
+      heapTotal: 20307968,
+      heapUsed: 14280040,
+      external: 1843862,
+      arrayBuffers: 150918
+    }
+  },
+  os: { loadavg: [ 0.52, 0.6, 0.48 ], uptime: 7231.72 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1334,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1382,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1469,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 27,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 81,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-02-01T23:12:11.167Z'
+}
+{
+  error: /home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35
+                  let project_image = "image." + extension;
+                      ^
+  
+  SyntaxError: Identifier 'project_image' has already been declared
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+      at Module._compile (node:internal/modules/cjs/loader:1065:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'project_image' has already been declared\n" +
+    '/home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35\n' +
+    '                let project_image = "image." + extension;\n' +
+    '                    ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'project_image' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: '/home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35\n' +
+    '                let project_image = "image." + extension;\n' +
+    '                    ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'project_image' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Tue Feb 01 2022 23:20:32 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 11500,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.2',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 59961344,
+      heapTotal: 18472960,
+      heapUsed: 13868160,
+      external: 1676935,
+      arrayBuffers: 451586
+    }
+  },
+  os: { loadavg: [ 0.69, 0.48, 0.45 ], uptime: 7733.18 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1031,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1065,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-02-01T23:20:32.630Z'
+}
+{
+  error: /home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35
+                  let project_image = "image." + extension;
+                      ^
+  
+  SyntaxError: Identifier 'project_image' has already been declared
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+      at Module._compile (node:internal/modules/cjs/loader:1065:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'project_image' has already been declared\n" +
+    '/home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35\n' +
+    '                let project_image = "image." + extension;\n' +
+    '                    ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'project_image' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: '/home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35\n' +
+    '                let project_image = "image." + extension;\n' +
+    '                    ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'project_image' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Tue Feb 01 2022 23:20:32 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 11507,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.2',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 61689856,
+      heapTotal: 20045824,
+      heapUsed: 12000032,
+      external: 1676935,
+      arrayBuffers: 55354
+    }
+  },
+  os: { loadavg: [ 0.69, 0.48, 0.45 ], uptime: 7733.19 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1031,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1065,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-02-01T23:20:32.638Z'
+}
+{
+  error: /home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35
+                  let project_image = "image." + extension;
+                      ^
+  
+  SyntaxError: Identifier 'project_image' has already been declared
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+      at Module._compile (node:internal/modules/cjs/loader:1065:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'project_image' has already been declared\n" +
+    '/home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35\n' +
+    '                let project_image = "image." + extension;\n' +
+    '                    ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'project_image' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: '/home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35\n' +
+    '                let project_image = "image." + extension;\n' +
+    '                    ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'project_image' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Tue Feb 01 2022 23:21:02 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 11643,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.2',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 61976576,
+      heapTotal: 20045824,
+      heapUsed: 12122800,
+      external: 1676935,
+      arrayBuffers: 55354
+    }
+  },
+  os: { loadavg: [ 0.65, 0.5, 0.46 ], uptime: 7762.94 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1031,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1065,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-02-01T23:21:02.389Z'
+}
+{
+  error: /home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35
+                  let project_image = "image." + extension;
+                      ^
+  
+  SyntaxError: Identifier 'project_image' has already been declared
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+      at Module._compile (node:internal/modules/cjs/loader:1065:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'project_image' has already been declared\n" +
+    '/home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35\n' +
+    '                let project_image = "image." + extension;\n' +
+    '                    ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'project_image' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: '/home/dominic/Project/nodejs/NodeJS-Mysql/controller/project.controller.js:35\n' +
+    '                let project_image = "image." + extension;\n' +
+    '                    ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'project_image' has already been declared\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js:2:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Tue Feb 01 2022 23:21:14 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 11809,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.2',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 60235776,
+      heapTotal: 18735104,
+      heapUsed: 13948248,
+      external: 1676935,
+      arrayBuffers: 451586
+    }
+  },
+  os: { loadavg: [ 0.63, 0.5, 0.46 ], uptime: 7774.56 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1031,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1065,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/routes/project.routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-02-01T23:21:14.008Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+      at listenInCluster (node:net:1382:12)
+      at Server.listen (node:net:1469:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:27:5)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+    code: 'EADDRINUSE',
+    errno: -98,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n' +
+    '    at listenInCluster (node:net:1382:12)\n' +
+    '    at Server.listen (node:net:1469:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:27:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n' +
+    '    at listenInCluster (node:net:1382:12)\n' +
+    '    at Server.listen (node:net:1469:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:27:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  exception: true,
+  date: 'Tue Feb 01 2022 23:21:39 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 11922,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.2',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 61939712,
+      heapTotal: 20307968,
+      heapUsed: 14442392,
+      external: 1843868,
+      arrayBuffers: 150924
+    }
+  },
+  os: { loadavg: [ 0.86, 0.57, 0.48 ], uptime: 7799.84 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1334,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1382,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1469,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 27,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 81,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-02-01T23:21:39.291Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+      at listenInCluster (node:net:1382:12)
+      at Server.listen (node:net:1469:7)
+      at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:27:5)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+    code: 'EADDRINUSE',
+    errno: -98,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n' +
+    '    at listenInCluster (node:net:1382:12)\n' +
+    '    at Server.listen (node:net:1469:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:27:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n' +
+    '    at listenInCluster (node:net:1382:12)\n' +
+    '    at Server.listen (node:net:1469:7)\n' +
+    '    at Function.listen (/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/home/dominic/Project/nodejs/NodeJS-Mysql/app.js:27:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  exception: true,
+  date: 'Tue Feb 01 2022 23:22:10 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 12065,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/dominic/Project/nodejs/NodeJS-Mysql',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.2',
+    argv: [
+      '/usr/bin/node',
+      '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js'
+    ],
+    memoryUsage: {
+      rss: 62496768,
+      heapTotal: 20570112,
+      heapUsed: 14316344,
+      external: 1843873,
+      arrayBuffers: 158023
+    }
+  },
+  os: { loadavg: [ 0.7, 0.56, 0.48 ], uptime: 7830.94 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1334,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1382,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1469,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/dominic/Project/nodejs/NodeJS-Mysql/app.js',
+      function: null,
+      line: 27,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 81,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2022-02-01T23:22:10.389Z'
+}
